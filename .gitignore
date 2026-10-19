@@ -1,0 +1,28 @@
+# 业务数据 —— 严禁提交
+*.xlsx
+*.xls
+*.csv
+*.docx
+*.pdf
+analysis_result.json
+
+# 运行产物
+stage1/
+stage2/
+分析输出*/
+output/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
